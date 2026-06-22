@@ -6,33 +6,65 @@ Implement the Singleton Design Pattern to ensure that only one instance of a Log
 
 ## Scenario
 
-A logging utility should maintain a single instance across the application to ensure consistent logging behavior.
+A logging utility should maintain a single instance across the application to ensure consistent logging behavior and centralized logging throughout the application.
 
-## Files
+---
 
+## Project Structure
+
+```text
+Exercise-1-Singleton
+│
+├── src
+│   ├── Logger.java
+│   └── SingletonTest.java
+│
+├── output.png
+└── README.md
 ```
-src/
-├── Logger.java
-└── SingletonTest.java
-```
+
+---
 
 ## Implementation Details
 
-- Logger class follows the Singleton Design Pattern.
-- Constructor is private to prevent object creation from outside the class.
-- A static instance variable stores the single object.
-- getInstance() method provides global access to the instance.
+### Logger Class
+
+- Private static instance variable.
+- Private constructor to prevent external object creation.
+- Public static `getInstance()` method to provide access to the single instance.
+- `log()` method for logging messages.
+
+### Test Class
+
+- Retrieves Logger instance multiple times.
+- Verifies that only one object is created.
+- Demonstrates Singleton behavior.
+
+---
 
 ## Output
+
+![Output](output.png)
+
+### Console Output
 
 ```text
 LOG: Application Started
 Singleton Works
 ```
 
+---
+
 ## Learning Outcome
 
 - Understanding Singleton Design Pattern
 - Restricting object creation
-- Global access to a single instance
-- Improving resource management
+- Providing global access to an object
+- Improving resource management and consistency
+
+---
+
+## Author
+
+Pratyaksha Singh
+Cognizant Digital Nurture 5.0 - Java FSE

@@ -2,36 +2,73 @@
 
 ## Objective
 
-Implement the Factory Method Design Pattern for creating different types of documents in a document management system.
+Implement the Factory Method Design Pattern to create different types of documents in a document management system.
 
 ## Scenario
 
-A document management system should be capable of creating multiple document types such as Word, PDF, and Excel without tightly coupling the client code to specific classes.
+The system should support multiple document types such as Word, PDF, and Excel while keeping object creation separate from the client code.
 
-## Files
+---
 
+## Project Structure
+
+```text
+Exercise-2-Factory-Method
+│
+├── src
+│   ├── Document.java
+│   ├── WordDocument.java
+│   ├── PdfDocument.java
+│   ├── ExcelDocument.java
+│   ├── DocumentFactory.java
+│   ├── WordFactory.java
+│   ├── PdfFactory.java
+│   ├── ExcelFactory.java
+│   └── FactoryTest.java
+│
+├── output.png
+└── README.md
 ```
-src/
-├── Document.java
-├── WordDocument.java
-├── PdfDocument.java
-├── ExcelDocument.java
-├── DocumentFactory.java
-├── WordFactory.java
-├── PdfFactory.java
-├── ExcelFactory.java
-└── FactoryTest.java
-```
+
+---
 
 ## Implementation Details
 
-- Document interface defines common behavior.
-- Concrete document classes implement the interface.
-- Abstract factory class declares createDocument().
-- Concrete factories create specific document types.
-- Client interacts with factories instead of concrete classes.
+### Document Interface
+
+Defines a common method:
+
+```java
+void open();
+```
+
+### Concrete Document Classes
+
+- WordDocument
+- PdfDocument
+- ExcelDocument
+
+Each class implements the Document interface.
+
+### Factory Classes
+
+- WordFactory
+- PdfFactory
+- ExcelFactory
+
+Each factory creates its corresponding document type.
+
+### Client
+
+FactoryTest demonstrates the creation and usage of different document types through factory objects.
+
+---
 
 ## Output
+
+![Output](output.png)
+
+### Console Output
 
 ```text
 Opening Word Document
@@ -39,9 +76,18 @@ Opening PDF Document
 Opening Excel Document
 ```
 
+---
+
 ## Learning Outcome
 
 - Understanding Factory Method Design Pattern
-- Decoupling object creation from client code
+- Decoupling object creation from business logic
 - Improving flexibility and maintainability
-- Applying polymorphism in object creation
+- Applying abstraction and polymorphism
+
+---
+
+## Author
+
+Pratyaksha Singh
+Cognizant Digital Nurture 5.0 - Java FSE

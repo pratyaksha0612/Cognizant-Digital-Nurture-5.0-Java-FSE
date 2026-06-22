@@ -1,27 +1,15 @@
 # Progress Tracker
 
-## Week 1
+# Week 1 Progress
 
-- [ ] SOLID Principles
-- [ ] Design Patterns
-- [ ] Arrays
-- [ ] Linked Lists
-- [ ] Searching
-- [ ] Sorting
+## Design Patterns
 
-## Week 2
+- [x] Exercise 1 - Singleton Pattern
+- [x] Exercise 2 - Factory Method Pattern
 
-- [ ] PL/SQL Basics
-- [ ] Procedures
-- [ ] Functions
-- [ ] Triggers
-- [ ] JUnit
-- [ ] Mockito
+## Data Structures & Algorithms
 
-## Week 3
-
-- [ ] Spring Core
-- [ ] Maven
-- [ ] Dependency Injection
+- [ ] Exercise 2 - E-commerce Platform Search Function
+- [ ] Exercise 7 - Financial Forecasting
 
 ...
