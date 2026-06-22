@@ -8,7 +8,7 @@ Implement the Factory Method Design Pattern to create different types of documen
 
 The system should support multiple document types such as Word, PDF, and Excel while keeping object creation separate from the client code.
 
----
+
 
 ## Project Structure
 
@@ -29,8 +29,6 @@ Exercise-2-Factory-Method
 ├── output.png
 └── README.md
 ```
-
----
 
 ## Implementation Details
 
@@ -62,7 +60,6 @@ Each factory creates its corresponding document type.
 
 FactoryTest demonstrates the creation and usage of different document types through factory objects.
 
----
 
 ## Output
 
@@ -76,7 +73,6 @@ Opening PDF Document
 Opening Excel Document
 ```
 
----
 
 ## Learning Outcome
 
@@ -85,7 +81,6 @@ Opening Excel Document
 - Improving flexibility and maintainability
 - Applying abstraction and polymorphism
 
----
 
 ## Author
 

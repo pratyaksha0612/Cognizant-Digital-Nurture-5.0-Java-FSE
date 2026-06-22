@@ -8,7 +8,6 @@ Implement the Singleton Design Pattern to ensure that only one instance of a Log
 
 A logging utility should maintain a single instance across the application to ensure consistent logging behavior and centralized logging throughout the application.
 
----
 
 ## Project Structure
 
@@ -23,7 +22,6 @@ Exercise-1-Singleton
 └── README.md
 ```
 
----
 
 ## Implementation Details
 
@@ -40,7 +38,6 @@ Exercise-1-Singleton
 - Verifies that only one object is created.
 - Demonstrates Singleton behavior.
 
----
 
 ## Output
 
@@ -53,8 +50,6 @@ LOG: Application Started
 Singleton Works
 ```
 
----
-
 ## Learning Outcome
 
 - Understanding Singleton Design Pattern
@@ -62,7 +57,6 @@ Singleton Works
 - Providing global access to an object
 - Improving resource management and consistency
 
----
 
 ## Author
 
