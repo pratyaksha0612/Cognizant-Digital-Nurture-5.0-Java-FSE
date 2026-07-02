@@ -1,15 +1,70 @@
-# Progress Tracker
+# Cognizant Digital Nurture 5.0 - Java FSE
 
-# Week 1 Progress
+## Overall Progress
 
-## Design Patterns
+| Week | Module | Status |
+|------|--------|--------|
+| Week 1 | Design Principles and Patterns | ✅ Completed |
+| Week 2 | Programming Languages | ✅ Completed |
+| Week 3 | Spring Core and Maven | ⏳ Pending |
 
-- [x] Exercise 1 - Singleton Pattern
-- [x] Exercise 2 - Factory Method Pattern
+# Week 1
 
-## Data Structures & Algorithms
+## Completed
 
-- [ ] Exercise 2 - E-commerce Platform Search Function
-- [ ] Exercise 7 - Financial Forecasting
+- SOLID Principles
+- Design Patterns
+- Hands-on Exercises
 
-...
+Status: ✅ Completed
+
+
+
+# Week 2
+
+## Programming Languages
+
+### JUnit
+
+- Exercise 1 - Setting Up JUnit
+- Exercise 3 - Assertions in JUnit
+- Exercise 4 - Arrange-Act-Assert (AAA), Setup & Teardown
+
+Status: ✅ Completed
+
+
+
+### Mockito
+
+- Exercise 1 - Mocking and Stubbing
+- Exercise 2 - Verifying Interactions
+
+Status: ✅ Completed
+
+
+
+### SLF4J Logging
+
+- Exercise 1 - Logging Error Messages and Warning Levels
+
+Status: ✅ Completed
+
+
+### PL/SQL
+
+- Exercise 1 - Control Structures
+- Exercise 3 - Stored Procedures
+
+Status: ✅ Completed
+
+
+
+## Overall Completion
+
+Completed Weeks: **2 / 7**
+
+Overall Progress:
+
+🟩🟩⬜⬜⬜⬜⬜
+
+Approximately **29% Complete**

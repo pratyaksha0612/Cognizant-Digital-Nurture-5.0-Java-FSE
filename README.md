@@ -1,18 +1,91 @@
 # Cognizant Digital Nurture 5.0 - Java FSE
 
-This repository contains my learning journey, hands-on exercises, and projects completed as part of the Cognizant Digital Nurture 5.0 Deep Skilling Program.
+This repository contains my solutions, hands-on exercises, and assignments completed as part of the **Cognizant Digital Nurture 5.0 - Java Full Stack Engineer (FSE)** training program.
 
-## Modules Covered
+The repository is organized week-wise according to the official learning roadmap and includes source code, documentation, execution outputs, and supporting resources for each mandatory hands-on exercise.
 
-- Design Patterns and Principles
-- Data Structures and Algorithms
-- PL/SQL Programming
-- JUnit and Mockito
-- Spring Core and Maven
-- Spring Data JPA and Hibernate
+## Repository Structure
+
+```text
+Cognizant-Digital-Nurture-5.0-Java-FSE
+│
+├── Week-01-Design-Principles-and-Patterns
+│
+├── Week-02-Programming-Languages
+│   ├── JUnit
+│   ├── Logging-Lombok
+│   ├── Mockito
+│   └── PLSQL
+│
+├── Week-03-Spring-Core-and-Maven
+│
+├── Week-04-Spring-REST-using-Spring-Boot
+│
+├── Week-05-Microservices-with-Spring-Boot-3-and-Spring-Cloud
+│
+├── Week-06-React
+│
+├── Week-07-React
+│
+├── README.md
+└── PROGRESS.md
+```
+
+
+## Technologies Covered
+
+- Java
+- Object-Oriented Programming
+- Design Principles
+- Design Patterns
+- PL/SQL
+- JUnit 5
+- Mockito
+- SLF4J Logging
+- Maven
+- Spring Framework
+- Spring Boot
 - Spring REST
 - Microservices
+- Spring Cloud
 - React
-- Git and DevOps
-- Cloud Fundamentals
-- Generative AI
+
+## Development Tools
+
+- Visual Studio Code
+- Oracle Live SQL
+- Git
+- GitHub
+- Apache Maven
+- Java 25
+
+
+## Repository Contents
+
+Each exercise generally contains:
+
+- Source Code
+- README Documentation
+- Output Screenshots
+- Maven Configuration (where applicable)
+
+
+## Progress
+
+The current progress can be found in:
+
+**PROGRESS.md**
+
+## Author
+
+**Pratyaksha Singh**
+
+B.Tech CSE (AI & ML)
+
+VIT Bhopal University
+
+---
+
+## License
+
+This repository is created for educational purposes as part of the Cognizant Digital Nurture 5.0 Java FSE Program.
