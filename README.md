@@ -49,6 +49,10 @@ Cognizant-Digital-Nurture-5.0-Java-FSE
 - Microservices
 - Spring Cloud
 - React
+- Spring Core
+- Spring Boot
+- Spring Data JPA
+- Hibernate
 
 ## Development Tools
 
@@ -62,12 +66,13 @@ Cognizant-Digital-Nurture-5.0-Java-FSE
 
 ## Repository Contents
 
-Each exercise generally contains:
+Each mandatory hands-on exercise includes:
 
 - Source Code
-- README Documentation
+- Project Documentation (README.md)
 - Output Screenshots
 - Maven Configuration (where applicable)
+- Spring Configuration Files (where applicable)
 
 
 ## Progress
