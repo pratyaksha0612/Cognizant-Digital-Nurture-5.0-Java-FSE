@@ -47,11 +47,7 @@ Book Service Created
 Book Repository Created
 ```
 
-## Screenshot
-
-Output screenshot is available as:
-
-- `output.png`
+![Output](output.png)
 
 ## Learning Outcome
 
