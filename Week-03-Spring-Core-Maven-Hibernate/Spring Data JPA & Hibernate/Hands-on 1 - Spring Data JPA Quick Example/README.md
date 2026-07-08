@@ -108,14 +108,7 @@ Country [code=IN, name=India]
 Country [code=JP, name=Japan]
 Country [code=US, name=United States]
 ```
-
-
-## Screenshot
-
-Execution Output:
-
-- `output.png`
-
+![Output](output.png)
 
 
 ## Key Concepts Learned
