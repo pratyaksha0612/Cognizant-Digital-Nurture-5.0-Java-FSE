@@ -2,18 +2,19 @@
 
 ## Overview
 
-This module demonstrates the implementation of RESTful Web Services using **Spring Boot 3**. It covers creating REST APIs, loading beans from Spring XML configuration, and retrieving country details using REST endpoints.
+This module demonstrates the implementation of RESTful Web Services using **Spring Boot 3**. The project covers creating REST APIs, loading Spring beans from XML configuration, retrieving country details using REST endpoints, and implementing JWT-based authentication using Spring Security.
+
 
 
 ## Technologies Used
 
-- Java
+- Java 17
 - Spring Boot 3
 - Spring Web
+- Spring Security
 - Spring Boot DevTools
-- Spring Core
 - Maven
-- REST APIs
+- JWT (JJWT 0.11.5)
 
 
 
@@ -23,32 +24,29 @@ This module demonstrates the implementation of RESTful Web Services using **Spri
 Spring REST using Spring Boot 3
 │
 ├── spring-learn
-│
 ├── output1.png
 ├── output2.png
 ├── output3.png
 ├── output4.png
+├── output5.png
 └── README.md
 ```
 
+
+
 # Hands-on 1 – Spring Boot Project
 
-Created a Spring Boot application using **Spring Initializr** and verified that the application starts successfully.
-
-### Run
-
-```bash
-mvn spring-boot:run
-```
+Created a Spring Boot application using Spring Initializr and verified successful execution.
 
 ### Output
 
 ![Output 1](output1.png)
 
 
-# Hands-on 2 – Load Country from Spring Configuration XML
 
-Created a Spring XML configuration file (`country.xml`) and loaded the **Country** bean using `ApplicationContext`.
+# Hands-on 2 – Load Country from Spring XML
+
+Loaded the Country bean from `country.xml` using `ApplicationContext`.
 
 ### Endpoint
 
@@ -77,9 +75,9 @@ http://localhost:8080/country
 
 
 
-# Hands-on 3 – Hello World RESTful Web Service
+# Hands-on 3 – Hello World REST API
 
-Implemented the first REST endpoint using `@RestController`.
+Created a simple REST endpoint.
 
 ### Endpoint
 
@@ -107,7 +105,7 @@ Hello World!!
 
 # Hands-on 4 – Get Country by Country Code
 
-Implemented REST API using **Path Variable** to fetch country details.
+Implemented REST endpoint using Path Variable.
 
 ### Endpoint
 
@@ -115,7 +113,7 @@ Implemented REST API using **Path Variable** to fetch country details.
 GET /countries/{code}
 ```
 
-### Sample URL
+### URL
 
 ```
 http://localhost:8080/countries/in
@@ -135,32 +133,58 @@ http://localhost:8080/countries/in
 ![Output 4](output4.png)
 
 
+
+# Hands-on 5 – JWT Authentication
+
+Configured Spring Security with Basic Authentication and implemented a JWT Authentication Service.
+
+### Endpoint
+
+```
+GET /authenticate
+```
+
+### Authentication
+
+```
+Username : user
+Password : pwd
+```
+
+### Response
+
+Returns a JWT token after successful authentication.
+
+### Output
+
+![Output 5](output5.png)
+
+
+
 # REST APIs Implemented
 
 | Method | Endpoint | Description |
-|----------|-------------------|---------------------------|
+|----------|----------------|------------------------------|
 | GET | `/hello` | Returns Hello World message |
-| GET | `/country` | Returns India details |
-| GET | `/countries/{code}` | Returns country based on code |
+| GET | `/country` | Returns country details |
+| GET | `/countries/{code}` | Returns country using country code |
+| GET | `/authenticate` | Returns JWT token |
 
 
 
 # Learning Outcomes
 
-- Created a Spring Boot application using Spring Initializr.
-- Loaded beans from Spring XML Configuration.
-- Developed REST APIs using `@RestController`.
-- Used `@GetMapping` for REST endpoints.
-- Used `@PathVariable` for dynamic URL parameters.
-- Implemented a simple service layer to separate business logic.
+- Developed REST APIs using Spring Boot.
+- Loaded Spring beans from XML configuration.
+- Used `@RestController` and `@GetMapping`.
+- Implemented Path Variables.
+- Configured Spring Security.
+- Implemented Basic Authentication.
+- Generated JWT tokens using JJWT.
+- Tested REST APIs successfully.
 
 
 
-# Pending Exercise
+# Conclusion
 
-The **JWT Authentication** hands-on will be implemented separately as it requires Spring Security and additional configuration.
-
-
-## Conclusion
-
-Successfully implemented the mandatory Spring REST hands-ons by developing RESTful Web Services, loading Spring beans from XML configuration, and exposing REST endpoints for country information using Spring Boot 3.
+Successfully completed the mandatory Spring REST hands-ons by implementing RESTful Web Services, XML bean configuration, Spring Security, and JWT-based authentication using Spring Boot 3.

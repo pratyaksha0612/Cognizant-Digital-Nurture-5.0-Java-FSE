@@ -7,12 +7,12 @@
 | Week 1 | Engineering Concepts | ✅ Completed |
 | Week 2 | Programming Languages | ✅ Completed |
 | Week 3 | Spring Core and Maven | ✅ Completed |
+| Week 4 | Spring Boot REST Microservices | ✅ Completed |
 
 
+Completed Weeks: **4 / 7**
 
-Completed Weeks: **3 / 7**
 
+🟩🟩🟩🟩⬜⬜⬜
 
-🟩🟩🟩⬜⬜⬜⬜
-
-Approximately **43% Complete**
+Approximately **57% Complete**
