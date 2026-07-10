@@ -1,15 +1,20 @@
 package com.cognizant.spring_learn.security;
 
-import io.jsonwebtoken.Jwts;
-import io.jsonwebtoken.SignatureAlgorithm;
-
 import java.nio.charset.StandardCharsets;
 import java.util.Date;
+
+import javax.crypto.SecretKey;
+
+import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.security.Keys;
 
 public class JwtUtil {
 
     private static final String SECRET =
             "mysecretkeymysecretkeymysecretkey123456";
+
+    private final SecretKey key =
+            Keys.hmacShaKeyFor(SECRET.getBytes(StandardCharsets.UTF_8));
 
     public String generateToken(String username) {
 
@@ -17,10 +22,7 @@ public class JwtUtil {
                 .setSubject(username)
                 .setIssuedAt(new Date())
                 .setExpiration(new Date(System.currentTimeMillis() + 600000))
-                .signWith(
-                        SignatureAlgorithm.HS256,
-                        SECRET.getBytes(StandardCharsets.UTF_8)
-                )
+                .signWith(key)
                 .compact();
-    }
+        }
 }
