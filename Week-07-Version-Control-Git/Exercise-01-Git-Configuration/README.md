@@ -116,11 +116,11 @@ git commit -m "Initial commit"
 
 ![Output 6](output6.png)
 
-### Git Status After Staging
+### Initial commit
 
 ![Output 7](output7.png)
 
-### Initial Commit
+### After commit
 
 ![Output 8](output8.png)
 
