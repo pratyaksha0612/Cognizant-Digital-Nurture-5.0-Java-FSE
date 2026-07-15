@@ -1,8 +1,8 @@
-# Exercise 16 - Form Validation
+# Exercise 15 - React Forms
 
 ## Objective
 
-This exercise demonstrates form validation in React using controlled components and event handling.
+This exercise demonstrates the implementation of React forms using controlled components and event handling. A complaint registration form is created to collect employee details and generate a complaint reference number upon submission.
 
 ## Prerequisites
 
@@ -14,19 +14,21 @@ This exercise demonstrates form validation in React using controlled components 
 ## Folder Structure
 
 ```
-Exercise-16-Form-Validation
+Exercise-15-React-Forms
 │
-├── mailregisterapp
+├── ticketraisingapp
 ├── output1.png
 ├── output2.png
 └── README.md
 ```
 
-## Validation Rules
+## Features
 
-- Name must contain at least 5 characters.
-- Email must contain `@` and `.`.
-- Password must contain at least 8 characters.
+- Employee Name input field
+- Complaint textarea
+- Controlled form components
+- Form submission handling
+- Auto-generated complaint reference number
 
 ## How to Run
 
@@ -37,17 +39,18 @@ npm start
 
 ## Output
 
-### Validation Errors
+### Complaint Registration Form
 
 ![Output 1](output1.png)
 
-### Successful Registration
+### Complaint Submitted Successfully
 
 ![Output 2](output2.png)
 
 ## Learning Outcomes
 
-- Implemented controlled components.
-- Performed client-side form validation.
-- Displayed validation messages dynamically.
-- Processed form submission using React event handling.
+- Created controlled form components in React.
+- Managed form state using React Hooks.
+- Handled form submission with event handling.
+- Generated dynamic complaint reference numbers.
+- Reset form fields after successful submission.
