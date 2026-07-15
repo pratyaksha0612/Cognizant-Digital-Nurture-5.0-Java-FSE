@@ -1,88 +1,151 @@
-# Cognizant Digital Nurture 5.0 - Java FSE
+# Cognizant Digital Nurture 5.0 - Java Full Stack Engineer
 
-This repository contains my solutions, hands-on exercises, and assignments completed as part of the **Cognizant Digital Nurture 5.0 - Java Full Stack Engineer (FSE)** training program.
+This repository contains my solutions, hands-on exercises, projects, and assignments completed as part of the **Cognizant Digital Nurture 5.0 – Java Full Stack Engineer (Java FSE)** training program.
 
-The repository is organized week-wise according to the official learning roadmap and includes source code, project documentation, execution outputs, and supporting resources for each mandatory hands-on exercise.
+The repository is organized week-wise according to the official learning roadmap and includes source code, documentation, execution outputs, and supporting resources for each mandatory hands-on exercise.
 
 ## Repository Structure
 
-```text
+```
 Cognizant-Digital-Nurture-5.0-Java-FSE
 │
-├── Week-01-Design-Principles-and-Patterns
-│
+├── Week-01-Engineering-Concepts
 ├── Week-02-Programming-Languages
-│
 ├── Week-03-Spring-Core-Maven-Hibernate
-│
 ├── Week-04-Spring-Boot-REST-Microservices
-│
 ├── Week-05-React
+├── Week-06-Advanced-React
+├── Week-07-Version-Control-Git
 │
-├── README.md
-└── PROGRESS.md
+├── PROGRESS.md
+└── README.md
 ```
 
-## Technologies Covered
+## Weekly Roadmap
+
+| Week | Topics Covered | Status |
+|:----:|----------------|:------:|
+| Week 1 | Design Principles, Design Patterns, Data Structures & Algorithms | ✅ |
+| Week 2 | PL/SQL, JUnit 5, Mockito, SLF4J & Logging | ✅ |
+| Week 3 | Spring Core, Maven, Spring Data JPA, Hibernate | ✅ |
+| Week 4 | Spring Boot, REST APIs & Microservices | ✅ |
+| Week 5 | React Fundamentals | ✅ |
+| Week 6 | Advanced React | ✅ |
+| Week 7 | Version Control with Git | ✅ |
+
+## Technologies Used
+
+### Programming Languages
 
 - Java
-- Object-Oriented Programming (OOP)
-- Design Principles
-- Design Patterns
-- PL/SQL
-- JUnit 5
-- Mockito
-- Lombok
-- SLF4J Logging
-- Maven
+- JavaScript (ES6+)
+- SQL
+- HTML5
+- CSS3
+
+### Frameworks & Libraries
+
 - Spring Framework
-- Spring Core
 - Spring Boot
-- Spring REST
 - Spring Data JPA
 - Hibernate
-- Microservices
-- Spring Cloud
-- React.js
-- JSX
-- JavaScript (ES6)
-- CSS Modules
-- React Hooks
-- Fetch API
+- React
+- JUnit 5
+- Mockito
+- Axios
+- Jest
+- React Testing Library
 
-## Development Tools
+### Tools
 
-- Visual Studio Code
-- Oracle Live SQL
 - Git
 - GitHub
-- Apache Maven
-- Java 25
-- Node.js
-- npm
-- Create React App
+- Maven
+- Visual Studio Code
+- Eclipse IDE
+- IntelliJ IDEA
+- Postman
 
-## Repository Contents
+## Topics Covered
 
-Each mandatory hands-on exercise includes:
+### Software Engineering
 
-- Source Code
-- README.md Documentation
-- Output Screenshots
-- Project Structure
-- Configuration Files (where applicable)
-- Maven Configuration (Spring-based projects)
-- React Project Files (React-based projects)
+- SOLID Principles
+- Design Patterns
+- Object-Oriented Programming
 
+### Data Structures & Algorithms
 
+- Algorithm Analysis
+- Problem Solving
+- Java Collections
+
+### Database
+
+- PL/SQL
+- Stored Procedures
+- Functions
+- Triggers
+
+### Backend Development
+
+- Spring Core
+- Dependency Injection
+- Spring Boot
+- Spring Data JPA
+- Hibernate ORM
+- RESTful Web Services
+- Microservices
+
+### Frontend Development
+
+- React Components
+- JSX
+- Props
+- State
+- Event Handling
+- Conditional Rendering
+- Lists & Keys
+- Forms
+- Context API
+- Form Validation
+- Fetch API
+- React Testing
+
+### Version Control
+
+- Git Configuration
+- Git Ignore
+- Branching
+- Merging
+- Merge Conflict Resolution
+- Remote Repository Management
+
+## Repository Highlights
+
+- Complete week-wise organization
+- Individual README for every exercise
+- Output screenshots for all hands-on exercises
+- Professional project documentation
+- Well-structured folder hierarchy
+- Clean Git commit history
+
+## Repository Statistics
+
+| Category | Count |
+|----------|------:|
+| Weeks | 7 |
+| Modules Covered | 15 |
+| Exercises | 38 |
+| Technologies | 15+ |
+| Documentation | README for every exercise |
+
+## Progress
+
+Repository Completion: **100%**
+
+For detailed progress, refer to **PROGRESS.md**.
 
 ## Author
 
 **Pratyaksha Singh**
-
-B.Tech CSE (AI & ML)  
-VIT Bhopal University
-
-## License
-
-This repository is maintained for educational purposes as part of the **Cognizant Digital Nurture 5.0 - Java Full Stack Engineer (FSE)** Program.
